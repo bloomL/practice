@@ -2,21 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="filter" />
+        <module name="interceptor" />
         <module name="producerconsumer" />
         <module name="sequenceprint" />
-        <module name="practice-producerconsumer" />
+        <module name="filter" />
         <module name="practice-sequenceprint" />
+        <module name="practice-producerconsumer" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="filter" options="-parameters" />
+      <module name="interceptor" options="-parameters" />
       <module name="practice-producerconsumer" options="-parameters" />
       <module name="practice-sequenceprint" options="-parameters" />
     </option>

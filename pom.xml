@@ -17,6 +17,7 @@
         <module>sequenceprint</module>
         <module>producerconsumer</module>
         <module>filter</module>
+        <module>interceptor</module>
     </modules>
 
     <properties>
