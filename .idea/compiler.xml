@@ -13,11 +13,13 @@
         <module name="filter" />
         <module name="practice-sequenceprint" />
         <module name="practice-producerconsumer" />
+        <module name="async" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="async" options="-parameters" />
       <module name="filter" options="-parameters" />
       <module name="interceptor" options="-parameters" />
       <module name="practice-producerconsumer" options="-parameters" />

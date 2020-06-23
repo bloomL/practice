@@ -18,6 +18,7 @@
         <module>producerconsumer</module>
         <module>filter</module>
         <module>interceptor</module>
+        <module>async</module>
     </modules>
 
     <properties>
