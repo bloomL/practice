@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- init-method：指定初始化的方法
+         destroy-method：指定销毁的方法 -->
+    <bean id="singletonBean" class="org.example.singleton.SingletonBean" init-method="init" destroy-method="destroy" lazy-init="true">
+        <property name="name" value="li"></property>
+    </bean>
+
+</beans>

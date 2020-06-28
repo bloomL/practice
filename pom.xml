@@ -19,6 +19,7 @@
         <module>filter</module>
         <module>interceptor</module>
         <module>async</module>
+        <module>lifeCycle</module>
     </modules>
 
     <properties>

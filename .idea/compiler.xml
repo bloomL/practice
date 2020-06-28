@@ -13,6 +13,7 @@
         <module name="filter" />
         <module name="practice-sequenceprint" />
         <module name="practice-producerconsumer" />
+        <module name="lifeCycle" />
         <module name="async" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="async" options="-parameters" />
       <module name="filter" options="-parameters" />
       <module name="interceptor" options="-parameters" />
+      <module name="lifeCycle" options="-parameters" />
       <module name="practice-producerconsumer" options="-parameters" />
       <module name="practice-sequenceprint" options="-parameters" />
     </option>
