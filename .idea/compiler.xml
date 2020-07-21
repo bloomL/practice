@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="observerModel" />
+        <module name="reflect" />
         <module name="interceptor" />
-        <module name="producerconsumer" />
         <module name="sequenceprint" />
         <module name="filter" />
         <module name="practice-sequenceprint" />
+        <module name="concurrent" />
         <module name="practice-producerconsumer" />
         <module name="lifeCycle" />
+        <module name="producerconsumer" />
         <module name="async" />
       </profile>
     </annotationProcessing>
@@ -21,11 +24,14 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="async" options="-parameters" />
+      <module name="concurrent" options="-parameters" />
       <module name="filter" options="-parameters" />
       <module name="interceptor" options="-parameters" />
       <module name="lifeCycle" options="-parameters" />
+      <module name="observerModel" options="-parameters" />
       <module name="practice-producerconsumer" options="-parameters" />
       <module name="practice-sequenceprint" options="-parameters" />
+      <module name="reflect" options="-parameters" />
     </option>
   </component>
 </project>

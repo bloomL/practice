@@ -2,10 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/concurrent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/filter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interceptor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lifeCycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerModel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/producerconsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reflect/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sequenceprint/src/main/java" charset="UTF-8" />
   </component>
 </project>

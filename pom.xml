@@ -20,6 +20,9 @@
         <module>interceptor</module>
         <module>async</module>
         <module>lifeCycle</module>
+        <module>observerModel</module>
+        <module>reflect</module>
+        <module>concurrent</module>
     </modules>
 
     <properties>
@@ -53,6 +56,11 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>29.0-android</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
