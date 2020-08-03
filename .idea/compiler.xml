@@ -12,6 +12,7 @@
         <module name="reflect" />
         <module name="interceptor" />
         <module name="sequenceprint" />
+        <module name="designModel" />
         <module name="filter" />
         <module name="practice-sequenceprint" />
         <module name="concurrent" />
@@ -27,6 +28,7 @@
       <module name="async" options="-parameters" />
       <module name="concurrent" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="designModel" options="-parameters" />
       <module name="filter" options="-parameters" />
       <module name="interceptor" options="-parameters" />
       <module name="lifeCycle" options="-parameters" />
