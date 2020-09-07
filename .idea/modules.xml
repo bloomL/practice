@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aboutboot/aboutboot.iml" filepath="$PROJECT_DIR$/aboutboot/aboutboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPattern/designModel.iml" filepath="$PROJECT_DIR$/designPattern/designModel.iml" />
     </modules>
   </component>
 </project>

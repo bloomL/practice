@@ -7,24 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="about_quartz" />
+        <module name="async" />
         <module name="demo" />
-        <module name="observerModel" />
-        <module name="reflect" />
-        <module name="interceptor" />
-        <module name="sequenceprint" />
-        <module name="designModel" />
         <module name="filter" />
-        <module name="practice-sequenceprint" />
-        <module name="concurrent" />
+        <module name="reflect" />
         <module name="practice-producerconsumer" />
         <module name="lifeCycle" />
+        <module name="designModel" />
+        <module name="observerModel" />
         <module name="producerconsumer" />
-        <module name="async" />
+        <module name="practice-sequenceprint" />
+        <module name="concurrent" />
+        <module name="interceptor" />
+        <module name="sequenceprint" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="designModel" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="about_quartz" options="-parameters" />
       <module name="async" options="-parameters" />
       <module name="concurrent" options="-parameters" />
       <module name="demo" options="-parameters" />
